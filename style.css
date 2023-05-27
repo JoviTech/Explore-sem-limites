@@ -4,10 +4,43 @@
   box-sizing: border-box;
 }
 
-#Astronata {
+body {
+  display: grid;
+  grid-template-areas: "topo meiuca baixo";
+  grid-template-rows: 100fr 100fr 100fr;
+  grid-template-columns: 1vw;
+}
+
+#topo {
+  grid-area: topo;
+}
+
+#topo h1 {
+  color: #b52184;
+  position: absolute;
+  width: 554px;
+  height: 73px;
+  left: 109px;
+  top: 312px;
+}
+
+#Astronauta {
   position: absolute;
   width: 719.36px;
   height: 732.36px;
   left: 691px;
+  top: 0px;
+}
+#meicua {
+  grid-area: meiuca;
+}
+#baixo {
+  grid-area: baixo;
+}
+#baixo img {
+  position: absolute;
+  width: 644px;
+  height: 612px;
+  left: 796px;
   top: 0px;
 }
