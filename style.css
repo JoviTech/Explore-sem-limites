@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#Astronata {
+  position: absolute;
+  width: 719.36px;
+  height: 732.36px;
+  left: 691px;
+  top: 0px;
+}
