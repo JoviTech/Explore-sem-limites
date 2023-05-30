@@ -5,42 +5,62 @@
 }
 
 body {
-  display: grid;
-  grid-template-areas: "topo meiuca baixo";
-  grid-template-rows: 100fr 100fr 100fr;
-  grid-template-columns: 1vw;
+  width: 1440px;
+  height: 2101px;
 }
 
-#topo {
-  grid-area: topo;
-}
+main {
+  display: flex;
+  flex-direction: row;
 
-#topo h1 {
-  color: #b52184;
-  position: absolute;
-  width: 554px;
-  height: 73px;
-  left: 109px;
-  top: 312px;
-}
+  width: 1440px;
+  height: 836px;
 
-#Astronauta {
-  position: absolute;
+  background-color: #c0bfdb;
+}
+#canhoto {
+  padding: 312px 28px 451px 109px;
+}
+#texto {
+  padding: 307px auto 215px 109px;
+}
+button {
+  margin-left: 109px;
+  margin-bottom: 136px;
+  width: 58.59px;
+  height: 105px;
+}
+#astronauta {
+  padding: 0 30px 100px;
   width: 719.36px;
   height: 732.36px;
-  left: 691px;
-  top: 0px;
 }
-#meicua {
-  grid-area: meiuca;
+
+#meiuca {
+  display: flex;
+  background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
+  padding: 64px 111px;
+  gap: 60px;
 }
+
+#laranja #azul #rosa {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+
+  background-color: white;
+}
+
+#laranja {
+  background-color: white;
+}
+#azul{
+  background-color: white;
+}
+#rosa{
+  background-color: white;
+}
+
 #baixo {
-  grid-area: baixo;
-}
-#baixo img {
-  position: absolute;
-  width: 644px;
-  height: 612px;
-  left: 796px;
-  top: 0px;
+  background-color: aqua;
 }
